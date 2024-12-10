@@ -4,24 +4,24 @@ This project is a luxurious and fully responsive hotel booking website built usi
 
 Features
 
-React.js Framework: Built with React.js for a fast, dynamic, and modular user interface.
+- React.js Framework: Built with React.js for a fast, dynamic, and modular user interface.
 
-Responsive Design: Fully optimized for all devices, ensuring a consistent experience across desktops, tablets, and mobile phones.
+- Responsive Design: Fully optimized for all devices, ensuring a consistent experience across desktops, tablets, and mobile phones.
 
-Elegant UI: Highlights hotel rooms, services, and amenities with a visually appealing and professional layout.
+- Elegant UI: Highlights hotel rooms, services, and amenities with a visually appealing and professional layout.
 
-Booking Simulation: A user-friendly booking system with demo functionality for exploring room availability and features.
+- Booking Simulation: A user-friendly booking system with demo functionality for exploring room availability and features.
 
-Smooth Navigation: Intuitive and straightforward navigation for an effortless user experience.
+- Smooth Navigation: Intuitive and straightforward navigation for an effortless user experience.
 
 Technology Stack
 
-Frontend: React.js
+- Frontend: React.js
 
-Styling: Tailwind CSS or other modern CSS frameworks
+- Styling: CSS
 
 Live Demo
-Check out the live version of the project at Luxury Hotel.
+Check out the live version of the project at https://luxury-hottel.netlify.app/
 
 # Getting Started with Create React App
 
