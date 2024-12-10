@@ -1,0 +1,19 @@
+.choice-content{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    gap: 60px;
+}
+.paragraph-choice{
+    width: 40%;
+    max-width: 100%;
+}
+@media (max-width: 768px) {
+    .choice-content{
+        display: block;
+        padding: 15px;
+    }
+    .paragraph-choice{
+        width: 100%;
+    }
+}

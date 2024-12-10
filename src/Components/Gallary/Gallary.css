@@ -1,0 +1,63 @@
+.gallary-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 60%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+.top-row{
+    display: flex;
+    gap: 10px;
+}
+.vertical-image{
+    width: 30%;
+    height: auto;
+    border-radius: 15px;
+}
+.wide-image{
+    width: 70%;
+    height: auto;
+    border-radius: 15px;
+}
+.bottom-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    width: 100%;
+}
+.normal-image {
+    width: 33%; 
+    height: auto;
+    border-radius: 15px;
+}
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+.image-container img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+.price-label {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: bold;
+}
+@media (max-width: 768px) {
+    .top-row,
+    .bottom-row{
+        flex-direction: column;
+    }
+}

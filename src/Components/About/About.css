@@ -1,0 +1,89 @@
+.about-container{
+    display: flex;
+    width: 100%;
+    max-width: 100%;
+    justify-content: center;
+    gap: 35px;
+    margin-top: 25px;
+    flex-wrap: wrap;
+}
+.video-button{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.video-button button{
+    border-radius: 25px;
+}
+.video-button button .fa-play{
+    margin-right: 8px;
+}
+.video-popup{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    max-width: 100%;
+    height: 110%;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    z-index: 9999; 
+}
+.video-popup iframe {
+    width: 80%; 
+    max-width: 600px; 
+    height: 50%; 
+    border-radius: 10px;
+}
+.close-button{
+    position: relative;
+    top: -200px;
+    right: -600px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+@media (max-width: 768px) {
+    .video-popup iframe {
+        width: 90%; 
+        height: auto;
+    }
+    .close-button {
+        top: -80px;
+        right: -300px;
+        width: 30px;
+        height: 30px;
+    }
+    .about-icons {
+        display: block !important;
+        text-align: center;
+        margin-top: 35px !important;
+    }
+    .video-button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .about-container{
+        padding: 25px;
+    }
+}
+.about-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    gap: 150px;
+}
+.about-icons .icons-item .fa-icon {
+    background-color: rgb(67, 45, 4);
+    padding: 10px;
+    border-radius: 50%; 
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: wheat;
+}
