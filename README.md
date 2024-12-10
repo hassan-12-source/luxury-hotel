@@ -1,3 +1,28 @@
+Luxury Hotel - Modern Hotel Booking Website
+
+This project is a luxurious and fully responsive hotel booking website built using React.js. It offers an elegant interface and seamless user experience, designed to showcase the premium services and amenities of a high-end hotel.
+
+Features
+
+React.js Framework: Built with React.js for a fast, dynamic, and modular user interface.
+
+Responsive Design: Fully optimized for all devices, ensuring a consistent experience across desktops, tablets, and mobile phones.
+
+Elegant UI: Highlights hotel rooms, services, and amenities with a visually appealing and professional layout.
+
+Booking Simulation: A user-friendly booking system with demo functionality for exploring room availability and features.
+
+Smooth Navigation: Intuitive and straightforward navigation for an effortless user experience.
+
+Technology Stack
+
+Frontend: React.js
+
+Styling: Tailwind CSS or other modern CSS frameworks
+
+Live Demo
+Check out the live version of the project at Luxury Hotel.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
